@@ -123,8 +123,9 @@ body {
 }
 
 .private_club-questions {
-	padding: 50px 50px 0;
+	padding: 30px 50px 0;
 	margin-bottom: 120px;
+	width: 100%;
 }
 
 .private_club-questions-title {
@@ -308,6 +309,71 @@ body {
     margin-left: 70px;
 }
 
+.answer_number {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer-town {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer-delivery {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer-activation {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer-form {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer_page-cut {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer_credit {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer-lift {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer_mounting {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer_rent {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer_certificate {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer_return {
+	text-decoration: none;
+	color: #235FA6;
+}
+
+.answer_service-center {
+	text-decoration: none;
+	color: #235FA6;
+}
+
 .hide_item {
 	display: none;
 }
@@ -348,11 +414,41 @@ body {
     margin: 0;
 }
 
+.questions-box_hidden-item_answer-card {
+	font-family: "Roboto Regular";
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0 0 20px 8%;
+}
+                                                                    /*!!!!!!!!!!!!!*/
+.questions-box_hidden-item_answer-card:last-child {
+	margin: 0 0 0 8%;
+}
+
 .answer_column {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
 	margin-left: 20px;
+}
+
+.answer_column-card:first-child {
+	margin-left: 0;
+}
+
+.answer_column-card {
+	display: flex;
+	flex-direction: column;
+	width: 46%;
+	margin-left: 0;
+}
+
+.alterra_link {
+	color: #F44336;
+    text-decoration: none;
 }
 
 .questions-box_hidden-item_answer-string {
@@ -494,7 +590,7 @@ body {
 	}
 
 	.private_club-questions {
-    	padding: 20px 30px 0;
+    	padding: 10px 30px 0;
     	margin-bottom: 60px;
     	width: 100%;
 	}
@@ -608,7 +704,7 @@ body {
 	}
 
 	.private_club-questions {
-	    padding: 25px 0 0;
+	    padding: 10px 0 0;
 	    margin-bottom: 60px;
 	}
 
