@@ -415,6 +415,7 @@ body {
     letter-spacing: 1px;
     line-height: 140%;
     margin: 0;
+    font-style: italic;
 }
 
 .questions-box_hidden-item_answer-card {
@@ -425,6 +426,7 @@ body {
     letter-spacing: 1px;
     line-height: 140%;
     margin: 0 0 20px 8%;
+    font-style: italic;
 }
                                                                     /*!*/
 .questions-box_hidden-item_answer-card:last-child {
@@ -480,6 +482,7 @@ body {
     line-height: 140%;
     margin: 0 0 auto;
     width: 90%;
+    font-style: italic;
 }
 
 .hide_item + .button_hidden_down-item ~ .questions-box_hidden-item_answer-columns {
